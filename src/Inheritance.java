@@ -1,4 +1,5 @@
-public class Inheritance {
+public class Inheritance
+{
     String car;
     public void carName(String car)
         {
@@ -13,5 +14,4 @@ public class Inheritance {
         {
             System.out.println("Year: "+year);
         }
-
 }
