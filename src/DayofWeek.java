@@ -5,7 +5,7 @@ public class DayofWeek {
     int choice;
     public void dayChecker()
     {
-        System.out.println("Enter the choice: 1 for Monday,2 for Tuesday,3 for Wednesday,4 for Thursday,5 for Friday,6 for Saturday,7 for Friday");
+        System.out.println("Enter the choice: 1 for Monday,2 for Tuesday,3 for Wednesday,4 for Thursday,5 for Friday,6 for Saturday,7 for Sunday");
        choice = sc.nextInt();
        switch(choice)
        {
