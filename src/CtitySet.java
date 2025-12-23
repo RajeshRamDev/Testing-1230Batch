@@ -10,7 +10,7 @@ public class CtitySet {
         city.add("Mumbai");
         city.add("Kochi");
         city.add("Hyderabad");
-        System.out.println("List of Cities");
+        System.out.println("Set of Cities");
         for(String s: city)
         {
             System.out.println(s);
