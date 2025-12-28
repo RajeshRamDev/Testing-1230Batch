@@ -2,19 +2,24 @@ public class FirstLetterUpperCase {
     String S= "java is fun";
     public void capitalMaker()
     {
-           for(int i=0;i<S.length();i++)
-           {
-               System.out.println(S.charAt(i));
-               //System.out.println(S.charAt(0));
-              // System.out.println(S.charAt(5));
-               //System.out.println(S.charAt(7));
+        StringBuilder result = new StringBuilder();
 
-           }
+        for (int i = 0; i < S.length(); i++) {
+            char currentChar = S.charAt(i);
 
+            if (i == 0 || S.charAt(i - 1) == ' ') {
+                result.append(Character.toUpperCase(currentChar));
+            } else {
+                result.append(currentChar);
+            }
+        }
+
+        System.out.println(result.toString());
     }
 
     public static void main(String[] args) {
-        FirstLetterUpperCase fc = new FirstLetterUpperCase();
-        fc.capitalMaker();
+        FirstLetterUpperCase fu = new FirstLetterUpperCase();
+        fu.capitalMaker();
     }
-}
+
+    }
