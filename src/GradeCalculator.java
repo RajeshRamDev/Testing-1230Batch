@@ -31,9 +31,7 @@ public class GradeCalculator {
             case 1:
                 System.out.println("FAIL");
                 break;
-
         }
-
     }
 
     public static void main(String[] args) {
